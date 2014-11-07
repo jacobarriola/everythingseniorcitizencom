@@ -1,0 +1,36 @@
+.hero {
+  background: url('img/blackboard.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  padding-bottom: 4em;
+
+  .hero-logo img {
+    height: 3em;
+    margin-bottom: 2.5em;
+  }
+
+  .hero-inner {
+    padding: 3em;
+    margin: auto;
+    text-align: center;
+
+    .hero-copy {
+      text-align: center;
+      
+      h1 {
+        font-size: 1.6em;
+        margin-bottom: .5em;
+        color: #fff;
+      }
+
+      p {
+        margin: auto;
+        margin-bottom: 3em; 
+        font-weight: 200;
+        line-height: 1.4em;
+        color: #fff;
+      }
+    }
+  }
+}

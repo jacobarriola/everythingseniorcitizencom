@@ -11,12 +11,6 @@
  * http://bitters.bourbon.io
  * Copyright 2013–2014 thoughtbot, inc.
  * MIT License */
-/*// Typography
-$sans-serif: $helvetica;
-$serif: $georgia;
-$base-font-family: $sans-serif;
-$header-font-family: $base-font-family;*/
-/*$form-font-family: $base-font-family;*/
 button,
 input[type="submit"] {
   -webkit-font-smoothing: antialiased;
@@ -38,8 +32,6 @@ input[type="submit"] {
     cursor: not-allowed;
     opacity: 0.5; }
 
-/*@import "typography";*/
-/*@import "forms";*/
 table {
   border-collapse: collapse;
   margin: 0.75em 0;

@@ -11,6 +11,12 @@
  * http://bitters.bourbon.io
  * Copyright 2013–2014 thoughtbot, inc.
  * MIT License */
+/*// Typography
+$sans-serif: $helvetica;
+$serif: $georgia;
+$base-font-family: $sans-serif;
+$header-font-family: $base-font-family;*/
+/*$form-font-family: $base-font-family;*/
 button,
 input[type="submit"] {
   -webkit-font-smoothing: antialiased;
@@ -32,82 +38,7 @@ input[type="submit"] {
     cursor: not-allowed;
     opacity: 0.5; }
 
-body {
-  -webkit-font-smoothing: antialiased;
-  background-color: white;
-  color: #333333;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-  font-size: 1em;
-  line-height: 1.5; }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-  line-height: 1.25;
-  margin: 0;
-  text-rendering: optimizeLegibility; }
-
-h1 {
-  font-size: 2.25em; }
-
-h2 {
-  font-size: 2em; }
-
-h3 {
-  font-size: 1.75em; }
-
-h4 {
-  font-size: 1.5em; }
-
-h5 {
-  font-size: 1.25em; }
-
-h6 {
-  font-size: 1em; }
-
-p {
-  margin: 0 0 0.75em; }
-
-a {
-  -webkit-transition: color 0.1s linear;
-  -moz-transition: color 0.1s linear;
-  transition: color 0.1s linear;
-  color: #477dca;
-  text-decoration: none; }
-  a:hover {
-    color: #2c5999; }
-  a:active, a:focus {
-    color: #2c5999;
-    outline: none; }
-
-hr {
-  border-bottom: 1px solid #dddddd;
-  border-left: none;
-  border-right: none;
-  border-top: none;
-  margin: 1.5em 0; }
-
-img,
-picture {
-  margin: 0;
-  max-width: 100%; }
-
-blockquote {
-  border-left: 2px solid #dddddd;
-  color: #595959;
-  margin: 1.5em 0;
-  padding-left: 0.75em; }
-
-cite {
-  color: #737373;
-  font-style: italic; }
-  cite:before {
-    content: "\2014 \00A0"; }
-
+/*@import "typography";*/
 /*@import "forms";*/
 table {
   border-collapse: collapse;

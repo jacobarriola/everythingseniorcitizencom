@@ -12,10 +12,10 @@
 
   .hero-inner {
     margin: auto;
+    @include pad(default);
     text-align: center;
 
     .hero-copy {
-      text-align: center;
       
       h1 {
         font-size: 1.6em;

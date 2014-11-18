@@ -1,13 +1,14 @@
 <?php get_header(); ?>
-<div class="hero">
+<?php $bgimg = get_field('header_background_image'); ?>
+<div class="hero" style="background-image: url(<?=$bgimg?>)">
 	<div class="hero-inner">
     <a href="" class="hero-logo"><img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png
 " alt="Logo Image"></a>
 		<div class="hero-copy">
-			<h1>Everything Senior Citizen</h1>
-			<p>A few reasons why this product is worth using, who it's for and why they need it.</p>	
+			<h1><?php the_field('site_title'); ?></h1>
+			<p><?php the_field('site_description'); ?></p>	
 		</div>
-    <a href="<?php get_bloginfo('stylesheet_directory')?>/listing"><button>View Listings &#8594;</button></a>
+    <a href="<?php get_bloginfo('stylesheet_directory')?>/listing"><button><?php the_field('button'); ?> &#8594;</button></a>
 	</div>
 </div>
 

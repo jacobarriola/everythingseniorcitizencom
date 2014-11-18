@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <?php $bgimg = get_field('header_background_image'); ?>
-<div class="hero" style="background-image: url(<?=$bgimg?>)">
+<div class="hero" style="background-image: url(<?php echo $bgimg; ?>)">
 	<div class="hero-inner">
     <a href="" class="hero-logo"><img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png
 " alt="Logo Image"></a>

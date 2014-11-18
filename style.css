@@ -7,6 +7,11 @@
  Template:     Explorable
  Version:      1.0.0
 */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
 /* Bitters 0.10.0
  * http://bitters.bourbon.io
  * Copyright 2013–2014 thoughtbot, inc.
@@ -80,16 +85,15 @@ input[type="submit"] {
   white-space: nowrap; }
 
 .hero {
-  background: url("img/blackboard.jpg");
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: top right;
   background-size: cover;
-  padding-bottom: 4em; }
+  padding-bottom: 10em;
+  padding-top: 10em; }
   .hero .hero-logo img {
     height: 3em;
     margin-bottom: 2.5em; }
   .hero .hero-inner {
-    padding: 3em;
     margin: auto;
     text-align: center; }
     .hero .hero-inner .hero-copy {
@@ -98,12 +102,42 @@ input[type="submit"] {
         font-size: 1.6em;
         margin-bottom: .5em;
         color: #fff; }
+        @media screen and (min-width: 600px) {
+          .hero .hero-inner .hero-copy h1 {
+            font-size: 2.475em; } }
+        @media screen and (min-width: 1000px) {
+          .hero .hero-inner .hero-copy h1 {
+            font-size: 2.925em; } }
+        @media screen and (min-width: 1200px) {
+          .hero .hero-inner .hero-copy h1 {
+            font-size: 3.375em; } }
+        @media screen and (min-width: 1500px) {
+          .hero .hero-inner .hero-copy h1 {
+            font-size: 3.825em; } }
       .hero .hero-inner .hero-copy p {
         margin: auto;
         margin-bottom: 3em;
         font-weight: 200;
         line-height: 1.4em;
         color: #fff; }
+        @media screen and (min-width: 600px) {
+          .hero .hero-inner .hero-copy p {
+            font-size: 1.1em; } }
+        @media screen and (min-width: 1000px) {
+          .hero .hero-inner .hero-copy p {
+            font-size: 1.3em; } }
+        @media screen and (min-width: 1200px) {
+          .hero .hero-inner .hero-copy p {
+            font-size: 1.5em; } }
+        @media screen and (min-width: 1500px) {
+          .hero .hero-inner .hero-copy p {
+            font-size: 1.7em; } }
+    @media screen and (min-width: 600px) {
+      .hero .hero-inner button {
+        font-size: 1.1em; } }
+    @media screen and (min-width: 1200px) {
+      .hero .hero-inner button {
+        font-size: 1.3em; } }
 
 .footer-copyright {
   text-align: center;

@@ -7,11 +7,6 @@
  Template:     Explorable
  Version:      1.0.0
 */
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box; }
-
 /* Bitters 0.10.0
  * http://bitters.bourbon.io
  * Copyright 2013–2014 thoughtbot, inc.
@@ -141,4 +136,4 @@ input[type="submit"] {
 .footer-copyright {
   text-align: center;
   color: #ababab;
-  font-size: 0.75em; }
+  font-size: 75%; }

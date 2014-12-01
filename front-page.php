@@ -1,15 +1,13 @@
-<?php get_header(); ?>
+<?php get_header( 'home' ); ?>
 <?php $bgimg = get_field('header_background_image'); ?>
-<div class="hero" style="background-image: url(<?php echo $bgimg; ?>)">
-	<div class="hero-inner">
-    <a href="" class="hero-logo"><img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png
-" alt="Logo Image"></a>
-		<div class="hero-copy">
+<section class="hero" style="background-image: url(<?php echo $bgimg; ?>)">
+	<section class="hero-inner">
+		<section class="hero-copy">
 			<h1><?php the_field('site_title'); ?></h1>
 			<p><?php the_field('site_description'); ?></p>	
-		</div>
+		</section>
     <a href="<?php get_bloginfo('stylesheet_directory')?>/listing"><button><?php the_field('button'); ?> &#8594;</button></a>
-	</div>
-</div>
+	</section>
+</section>
 
 <?php get_footer(); ?>

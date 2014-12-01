@@ -108,19 +108,15 @@ input[type="submit"] {
 
 /* line 1, ../_homepage.scss */
 .hero {
-  background-repeat: no-repeat;
-  background-position: top right;
-  background-size: cover;
-  /*  padding-bottom: 3em;
-    padding-top: 27em;
-    @include media(600px) {
-      padding-bottom: 7em;
-      padding-top: 25em;
-    }*/
+  background-image: -webkit-linear-gradient(top left, #000, rgba(255, 255, 255, 0.2)), url(img/home-hero-hand.jpg);
+  background-image: linear-gradient(to bottom right, #000, rgba(255, 255, 255, 0.2)), url(img/home-hero-hand.jpg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: left, top left;
+  background-size: cover, cover;
   height: 100%;
   position: relative;
 }
-/* line 17, ../_homepage.scss */
+/* line 10, ../_homepage.scss */
 .hero .hero-inner {
   position: absolute;
   bottom: 2em;
@@ -129,13 +125,13 @@ input[type="submit"] {
   text-align: center;
 }
 @media screen and (min-width: 600px) {
-  /* line 17, ../_homepage.scss */
+  /* line 10, ../_homepage.scss */
   .hero .hero-inner {
     text-align: left;
     bottom: 7em;
   }
 }
-/* line 29, ../_homepage.scss */
+/* line 22, ../_homepage.scss */
 .hero .hero-inner .hero-copy h1 {
   font-size: 1.6em;
   margin-bottom: .5em;
@@ -143,30 +139,30 @@ input[type="submit"] {
   font-weight: 800;
 }
 @media screen and (min-width: 600px) {
-  /* line 29, ../_homepage.scss */
+  /* line 22, ../_homepage.scss */
   .hero .hero-inner .hero-copy h1 {
     font-size: 2.475em;
   }
 }
 @media screen and (min-width: 1000px) {
-  /* line 29, ../_homepage.scss */
+  /* line 22, ../_homepage.scss */
   .hero .hero-inner .hero-copy h1 {
     font-size: 2.925em;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 29, ../_homepage.scss */
+  /* line 22, ../_homepage.scss */
   .hero .hero-inner .hero-copy h1 {
     font-size: 3.375em;
   }
 }
 @media screen and (min-width: 1500px) {
-  /* line 29, ../_homepage.scss */
+  /* line 22, ../_homepage.scss */
   .hero .hero-inner .hero-copy h1 {
     font-size: 3.825em;
   }
 }
-/* line 48, ../_homepage.scss */
+/* line 41, ../_homepage.scss */
 .hero .hero-inner .hero-copy p {
   margin: auto;
   margin-bottom: 3em;
@@ -175,42 +171,42 @@ input[type="submit"] {
   color: #fff;
 }
 @media screen and (min-width: 600px) {
-  /* line 48, ../_homepage.scss */
+  /* line 41, ../_homepage.scss */
   .hero .hero-inner .hero-copy p {
     font-size: 1.1em;
   }
 }
 @media screen and (min-width: 1000px) {
-  /* line 48, ../_homepage.scss */
+  /* line 41, ../_homepage.scss */
   .hero .hero-inner .hero-copy p {
     font-size: 1.3em;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 48, ../_homepage.scss */
+  /* line 41, ../_homepage.scss */
   .hero .hero-inner .hero-copy p {
     font-size: 1.5em;
   }
 }
 @media screen and (min-width: 1500px) {
-  /* line 48, ../_homepage.scss */
+  /* line 41, ../_homepage.scss */
   .hero .hero-inner .hero-copy p {
     font-size: 1.7em;
   }
 }
-/* line 69, ../_homepage.scss */
+/* line 62, ../_homepage.scss */
 .hero .hero-inner button {
   width: 100%;
 }
 @media screen and (min-width: 600px) {
-  /* line 69, ../_homepage.scss */
+  /* line 62, ../_homepage.scss */
   .hero .hero-inner button {
     font-size: 1.1em;
     width: 50%;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 69, ../_homepage.scss */
+  /* line 62, ../_homepage.scss */
   .hero .hero-inner button {
     font-size: 1.3em;
   }

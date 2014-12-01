@@ -1,18 +1,11 @@
 .hero {
-  background-repeat: no-repeat;
-  background-position: top right;
-  background-size: cover;
-/*  padding-bottom: 3em;
-  padding-top: 27em;
-  @include media(600px) {
-    padding-bottom: 7em;
-    padding-top: 25em;
-  }*/
-
+  background-image: linear-gradient(to bottom right, #000, rgba(255,255,255,0.2)),
+  url(img/home-hero-hand.jpg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: left, top left;
+  background-size: cover, cover;
   height: 100%;
   position: relative;
-
-
 
   .hero-inner {
     position: absolute;

@@ -1,6 +1,6 @@
 <?php get_header( 'home' ); ?>
 <?php $bgimg = get_field('header_background_image'); ?>
-<section class="hero" style="background-image: url(<?php echo $bgimg; ?>)">
+<section class="hero">
 	<section class="hero-inner">
 		<section class="hero-copy">
 			<h1><?php the_field('site_title'); ?></h1>

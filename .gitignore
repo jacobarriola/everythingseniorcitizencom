@@ -1,0 +1,7 @@
+wp-admin/
+wp-includes/
+wp-content/upgrade
+wp-content/plugins/wp-ultimate-csv.importer
+*.php
+*.txt
+*.html

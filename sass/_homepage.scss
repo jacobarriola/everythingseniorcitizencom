@@ -1,11 +1,15 @@
 .hero {
-  background-image: linear-gradient(to bottom right, #000, rgba(255,255,255,0)),
+  background-image: linear-gradient(to bottom right, #000, rgba(0,0,0,0.3)),
   url(img/home-hero-hand.jpg);
   background-repeat: no-repeat, no-repeat;
-  background-position: left, top left;
+  background-position: left, right top;
   background-size: cover, cover;
   height: 100%;
   position: relative;
+  @include media(600px){
+  background-image: linear-gradient(to bottom right, #000, rgba(255,255,255,0)),
+  url(img/home-hero-hand.jpg);    
+  }
 
   .hero-inner {
     position: absolute;

@@ -1,7 +1,11 @@
 wp-admin/
 wp-includes/
 wp-content/upgrade
+wp-content/themes/explorable-child/.sass-cache/*
+wp-content/themes/explorable-child/node_modules/*
+wp-content/themes/explorable-child/npm-debug.log
 wp-content/plugins/wp-ultimate-csv.importer
 *.php
 *.txt
 *.html
+.DS_Store

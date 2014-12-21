@@ -1,0 +1,83 @@
+.hero {
+  background-image: linear-gradient(to bottom right, #000, rgba(0,0,0,0.3)),
+  url(img/home-hero-hand.jpg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: left, right top;
+  background-size: cover, cover;
+  height: 100%;
+  position: relative;
+  @include media(600px){
+  background-image: linear-gradient(to bottom right, #000, rgba(255,255,255,0)),
+  url(img/home-hero-hand.jpg);    
+  }
+
+  .hero-inner {
+    position: absolute;
+    bottom: 4em;
+    margin: auto;
+    @include pad(default);
+    text-align: center;
+    @include media(600px) {
+      text-align: left;
+      bottom: 7em;
+    }
+    @include media(1000px) {
+      @include span-columns(8);
+    }
+    @include media(1200px) {
+      @include span-columns(7);
+    }
+    .hero-copy {
+      
+      h1 {
+        font-size: 1.6em;
+        margin-bottom: .5em;
+        color: #fff;
+        font-weight: 800;
+        @include media(600px) {
+          font-size: $h1-font-size * 1.3;
+        }
+/*        @include media(1000px) {
+          font-size: $h1-font-size * 1.3;
+        }*/
+        @include media(1200px) {
+          font-size: $h1-font-size * 1.5;
+        }
+        @include media(1500px) {
+          font-size: $h1-font-size * 1.7;
+        }
+      }
+
+      p {
+        margin: auto;
+        margin-bottom: 3em; 
+        font-weight: 700;
+        line-height: 1.4em;
+        color: #fff;
+        @include media(600px) {
+          font-size: $base-font-size * 1.3;
+        }
+/*        @include media(1000px) {
+          font-size: $base-font-size * 1.3;
+        }*/
+        @include media(1200px) {
+          font-size: $base-font-size * 1.5;
+        }
+        @include media(1500px) {
+          font-size: $base-font-size * 1.7;
+        }
+      }
+    }
+
+    button {
+      width: 100%;
+      @include media(600px) {
+        font-size: $base-font-size * 1.1;
+        width: 50%;
+      }
+      @include media(1200px) {
+        font-size: $base-font-size * 1.3;
+      }      
+    }
+  }
+}

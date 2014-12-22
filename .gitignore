@@ -2,19 +2,22 @@
 /*
 !.gitignore
 !wp-content/
+
 # Ignore everything in the "wp-content" directory, except the "plugins"
 # and "themes" directories.
 wp-content/*
 !wp-content/plugins/
 !wp-content/themes/
 !wp-content/uploads/
+
 # Plugins - ignore these specific plugins
 wp-content/plugins/wp-ultimate-csv-importer
-# Ignore everything in the "themes" directory, except the themes you
-# specify (see the commented-out example for a hint on how to do this.)
+
+# Ignore everything in the "themes" directory except production themes
 wp-content/themes/*
 !wp-content/themes/Explorable/
 !wp-content/themes/explorable-child
+
 # Theme specific dev directories to ignore
 wp-content/themes/explorable-child/.sass-cache/
 wp-content/themes/explorable-child/node_modules/

@@ -8,6 +8,7 @@
 wp-content/*
 !wp-content/plugins/
 !wp-content/themes/
+!wp-content/uploads/
  
 # Plugins - ignore these specific plugins
 wp-content/plugins/wp-ultimate-csv-importer
